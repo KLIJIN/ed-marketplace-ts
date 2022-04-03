@@ -1,0 +1,22 @@
+.p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  color: #3b434e;
+}
+
+.s {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.m {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.l {
+  font-size: 18px;
+  line-height: 29px;
+}

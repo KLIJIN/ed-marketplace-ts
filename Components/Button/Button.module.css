@@ -1,0 +1,36 @@
+.button {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.primary {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.secondary {
+  color: var(--black);
+  background-color: var(--white);
+  border: 1px solid var(--black);
+}
+
+.row {
+  margin-left: 5px;
+  width: 10px;
+  height: 10px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  margin-top: 2px;
+}
