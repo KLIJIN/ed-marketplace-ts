@@ -1,8 +1,6 @@
 import { HTMLAttributes, ReactNode } from "react";
-import { Rating } from './Rating';
-
-export interface ParagrafProps extends HTMLAttributes<HTMLDivElement> {
+export interface RatingProps extends HTMLAttributes<HTMLDivElement> {
   isEditable?: boolean;
-  Rating: number;
+  rating: number;
   setRating: (rating: number) => void;
 }

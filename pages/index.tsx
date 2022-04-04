@@ -1,31 +1,36 @@
 import type { NextPage } from "next";
-import { Htag, Button, Paragraf, Tag } from "../Components";
+import { useState } from "react";
+import { Htag, Button, Paragraf, Tag, Rating } from "../Components";
 // import Head from 'next/head'
 // import Image from 'next/image'
 import styles from "../styles/Home.module.css";
-
+import {Layout} from "../Components/Layout"
 const Home: NextPage = () => {
+  const [rating, setRating] = useState<number>(4);
+
   return (
-    <div>
+    <Layout>
       <Htag tag={1}>asfasfsaf</Htag>
       <Button arrow="right" appearance="secondary">
         кнопка
       </Button>
       <Paragraf size="s">asfsafsfsafs</Paragraf>
       <Tag size="s" color="ghost">
-        sfsdfsdf 
+        sfsdfsdf
       </Tag>
 
       <Tag size="m" color="grey">
-        sfsdfsdf 
+        sfsdfsdf
       </Tag>
       <Tag size="m" color="green">
-        sfsdfsdf 
+        sfsdfsdf
       </Tag>
       <Tag size="m" color="primary">
-        sfsdfsdf 
+        sfsdfsdf
       </Tag>
-    </div>
+
+      <Rating rating={rating} setRating={setRating} isEditable />
+    </Layout>
   );
 };
 

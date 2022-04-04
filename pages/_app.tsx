@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <>
       <Head>
-        <title>NextJS </title>
+        <title>NextJS marketplase</title>
         <link rel="stylesheet" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
